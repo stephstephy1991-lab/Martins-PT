@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Grade 9 health project about sleep, healthy food, and exercise.">
+  <title>Health Hub by Martin | Grade 9 Health Project</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Health Hub by Martin home">
+      <span class="brand-mark">h<span>+</span></span>
+      <span>health hub <small>by martin</small></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#pillars">Health guide</a>
+      <a href="#resources">Resources</a>
+    </nav>
+
+    <a class="button button-dark header-cta" href="#join">
+      Join the community <span>↗</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          A GRADE 9 HEALTH PROJECT
+        </div>
+
+        <h1>Feel better.<br>One <span>good habit</span><br>at a time.</h1>
+
+        <p class="hero-text">
+          Learn easy ways to get enough sleep, choose healthy foods, and stay active.
+          This project shares general health information for students and families.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#pillars" class="button button-green">
+            Explore health topics <span>↘</span>
+          </a>
+          <a href="#about" class="text-link">
+            <span class="play-icon">▶</span> Meet Martin
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <div class="avatar-stack">
+            <span>🌿</span><span>☀️</span><span>💧</span>
+          </div>
+          <p><strong>Small steps matter.</strong><br>Choose one healthy habit.</p>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          class="hero-photo"
+          src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=85"
+          alt="A person stretching"
+        >
+        <div class="hero-image-shade"></div>
+        <div class="photo-caption">
+          <span class="sun-icon">☼</span>
+          <span><strong>Make room to feel good.</strong><small>Wellness, at your own pace.</small></span>
+        </div>
+        <div class="floating-badge">
+          <span>✳</span>
+          <div><strong>3 simple topics</strong><small>Sleep, food, and exercise</small></div>
+        </div>
+        <div class="scribble">a little better<br>every day <span>↙</span></div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>HEALTHY HABITS CAN START TODAY</span>
+        <span class="line"></span>
+        <span>01 / 03</span>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div class="section-wrap intro-inner">
+        <span class="sun-doodle">✳</span>
+        <p>People are different.<br><strong>Choose habits that work for you.</strong></p>
+        <a href="#about" aria-label="Learn about Health Hub">↗</a>
+      </div>
+    </section>
+
+    <section class="pillars section-wrap" id="pillars">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">THREE HEALTH TOPICS</div>
+          <h2>Three healthy habits.<br><span>Start with one.</span></h2>
+        </div>
+        <p>Good health takes time. Small habits can help you feel better over time.</p>
+      </div>
+
+      <div class="pillar-grid">
+        <article class="pillar-card sleep-card">
+          <div class="card-top">
+            <span class="card-icon">☾</span>
+            <span class="card-index">01 / REST</span>
+          </div>
+          <div class="card-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=85"
+              alt="Bright, cozy bedroom"
+              loading="lazy"
+            >
+          </div>
+          <div class="card-content">
+            <h3>Get better sleep.</h3>
+            <p>Try a calm bedtime routine and give your body time to rest.</p>
+            <button class="learn-link" data-open="sleep">Explore sleep tips <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="pillar-card food-card">
+          <div class="card-top">
+            <span class="card-icon">◉</span>
+            <span class="card-index">02 / FOOD</span>
+          </div>
+          <div class="card-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+              alt="A colorful salad bowl"
+              loading="lazy"
+            >
+          </div>
+          <div class="card-content">
+            <h3>Choose healthy foods.</h3>
+            <p>Eat different kinds of healthy foods and enjoy what you eat.</p>
+            <button class="learn-link" data-open="food">Explore food tips <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="pillar-card move-card">
+          <div class="card-top">
+            <span class="card-icon">↗</span>
+            <span class="card-index">03 / MOVE</span>
+          </div>
+          <div class="card-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85"
+              alt="A person exercising"
+              loading="lazy"
+            >
+          </div>
+          <div class="card-content">
+            <h3>Move your body.</h3>
+            <p>Walking, dancing, and sports are all ways to be active.</p>
+            <button class="learn-link" data-open="move">Explore exercise tips <span>↗</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-inner section-wrap">
+        <span class="quote-mark">“</span>
+        <blockquote>
+          You do not have to change everything.<br>
+          <em>Start with one small step.</em>
+        </blockquote>
+        <div class="quote-author">
+          <span class="mini-sun">✳</span>
+          <span><strong>Martin Orlando</strong><small>Health Hub creator</small></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-photo-area">
+        <div class="portrait-frame">
+          <div class="portrait-art">
+            <img src="martin.jpg" alt="Martin Orlando outdoors by the water">
+          </div>
+          <span class="portrait-label">Photo of Martin Orlando</span>
+          <span class="portrait-stamp">GOOD<br>ENERGY<br>ONLY ✳</span>
+        </div>
+        <div class="leaf-doodle">✳</div>
+      </div>
+
+      <div class="about-copy">
+        <div class="eyebrow">ABOUT THIS PROJECT</div>
+        <h2>Hi, I’m Martin.<br><span>Welcome to my project.</span></h2>
+        <p class="about-lead">I made Health Hub for a school project about healthy habits.</p>
+        <p>
+          The site covers sleep, healthy food, and exercise. The tips are simple ideas
+          for everyday life. Everyone is different, so choose habits that work for you.
+        </p>
+        <div class="signature">Martin <span>✳</span></div>
+        <a class="button button-outline" href="#join">See the sign-up form <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="resources" id="resources">
+      <div class="section-wrap resources-inner">
+        <div class="resources-title">
+          <div class="eyebrow">HEALTH TIPS AND RESOURCES</div>
+          <h2>Simple tips.<br><span>Healthy habits.</span></h2>
+          <p>Read these short tips to learn more about sleep, food, and exercise.</p>
+          <a class="text-link resource-link" href="#join">Join the demo <span>↗</span></a>
+        </div>
+
+        <div class="resource-list">
+          <button class="resource-row" data-open="sleep">
+            <span class="resource-number">01</span>
+            <span class="resource-name"><strong>Make a bedtime routine</strong><small>Sleep tips</small></span>
+            <span class="resource-arrow">↗</span>
+          </button>
+          <button class="resource-row" data-open="food">
+            <span class="resource-number">02</span>
+            <span class="resource-name"><strong>Make a balanced meal</strong><small>Healthy food tips</small></span>
+            <span class="resource-arrow">↗</span>
+          </button>
+          <button class="resource-row" data-open="move">
+            <span class="resource-number">03</span>
+            <span class="resource-name"><strong>Add movement to your day</strong><small>Exercise tips</small></span>
+            <span class="resource-arrow">↗</span>
+          </button>
+          <div class="resource-note"><span>✦</span> Pick one tip to try this week.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join section-wrap" id="join">
+      <div class="join-card">
+        <div class="join-decor decor-one">✳</div>
+        <div class="join-decor decor-two">✳</div>
+
+        <div class="join-copy">
+          <div class="eyebrow">CLASSROOM SIGN-UP DEMO</div>
+          <h2>Want to learn<br><span>healthy habits?</span></h2>
+          <p>Try this sample form for the school project. It shows a welcome message when you finish.</p>
+          <div class="join-perks">
+            <span>✳ Easy health tips</span>
+            <span>✳ Three health topics</span>
+            <span>✳ A sample form</span>
+          </div>
+        </div>
+
+        <form class="signup-form" id="signup-form" novalidate>
+          <div class="form-top">
+            <span class="form-icon">✉</span>
+            <span>SAMPLE REGISTRATION FORM</span>
+          </div>
+
+          <label for="full-name">Your name</label>
+          <input id="full-name" name="name" type="text" placeholder="e.g. Alex Rivera" required>
+          <span class="field-error" id="name-error"></span>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <span class="field-error" id="email-error"></span>
+
+          <label for="focus">Which topic interests you most?</label>
+          <select id="focus" name="focus">
+            <option value="">Choose a topic</option>
+            <option>Better sleep</option>
+            <option>Healthy eating</option>
+            <option>More movement</option>
+            <option>A bit of everything</option>
+          </select>
+
+          <label class="consent">
+            <input type="checkbox" id="consent" required>
+            <span>I agree to try this sample form.</span>
+          </label>
+          <span class="field-error" id="consent-error"></span>
+
+          <button class="button button-dark submit-button" type="submit">
+            Join the Health Hub <span>↗</span>
+          </button>
+          <small class="privacy-note">Demo only. Your details are not saved or sent.</small>
+        </form>
+
+        <div class="success-panel" id="success-panel" aria-live="polite" hidden>
+          <span class="success-icon">✓</span>
+          <div class="eyebrow">FORM COMPLETE</div>
+          <h3>Thanks for<br>trying the form!</h3>
+          <p>
+            Thanks for joining, <strong id="success-name">friend</strong>!
+            This is a demo. Your information was not saved or sent.
+          </p>
+          <button type="button" class="text-link edit-signup">← Back to the form</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="disclaimer section-wrap">
+      <span>✳</span>
+      <p>
+        <strong>Health note:</strong> This school project shares general information.
+        It is not medical advice. Ask a trusted adult or a health professional if you have questions.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-wrap">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#home">
+          <span class="brand-mark">h<span>+</span></span>
+          <span>health hub <small>by martin</small></span>
+        </a>
+        <p>A Grade 9 project about<br>healthy everyday habits.</p>
+      </div>
+
+      <div class="footer-nav">
+        <span>EXPLORE</span>
+        <a href="#about">About Martin</a>
+        <a href="#pillars">Health guide</a>
+        <a href="#resources">Tips and resources</a>
+      </div>
+
+      <div class="footer-contact">
+        <span>SAY HELLO</span>
+        <a href="mailto:martin.orlando@gmail.com">martin.orlando@gmail.com</a>
+        <a href="tel:+639079999999">09079999999</a>
+        <a href="#join">Join the community ↗</a>
+      </div>
+
+      <div class="footer-signoff">Take care,<br><em>Martin</em> <span>✳</span></div>
+    </div>
+
+    <div class="footer-bottom section-wrap">
+      <span>© 2026 Health Hub by Martin</span>
+      <span>A school project by Martin <span class="footer-sun">☼</span></span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="tip-dialog" id="tip-dialog">
+    <button class="dialog-close" aria-label="Close">×</button>
+    <div class="eyebrow" id="dialog-eyebrow">A HEALTH HUB TIP</div>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-intro"></p>
+    <ul id="dialog-list"></ul>
+    <p class="dialog-footnote">These are general ideas, not personal medical advice.</p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
